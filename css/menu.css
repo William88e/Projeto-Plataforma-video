@@ -1,0 +1,32 @@
+body {
+    background-color: lightgray;
+}
+
+.menu-principal {
+    min-width: 400px;
+    text-align: center;
+}
+
+.menu-principal h1 {
+    background: #333;
+    color: #fff;
+    border-bottom: solid 5px #4faddb;
+    padding: 15px 0px;
+    margin: 0;
+}
+
+.menu-principal a {
+    padding: 10px 4px;
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2em;
+    background-color: lightskyblue
+}
+
+.menu-principal a:hover {
+    background-color: lightgrey
+}
+ .menu-principal div {
+     padding: 5px;
+     text-align: left;
+ }
