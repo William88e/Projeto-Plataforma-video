@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: lightgray;
+    height: 100%;
+}
+
+tr {
+    border-bottom: solid 1px darkcyan;
+}
+
+td {
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+li {
+    font-size: 1.6em;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-height: 100%;
+}
+
+.exercicio div {
+    font-size: 3em;
+    border: solid 5px black;
+    padding: 20px 40px;
+    margin: 10px;
+}
+
+.exercicio div:nth-of-type(1) {
+    background-color: cyan;
+}
+
+.exercicio div:nth-of-type(2) {
+    background-color: darkcyan;
+}
+
+.exercicio div:nth-of-type(3) {
+    background-color: darkcyan;
+}
+
+.exercicio div:nth-of-type(4) {
+    background-color: darkorchid;
+}
+
+.exercicio .destaque {
+    border: solid 10px greenyellow;
+    color: greenyellow;
+    font-weight: bold;
+}
+
+a {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    font-size: 150%;
+    width: 100%;
+    border-bottom: solid 5px #4faddb;
+    padding: 10px 0px 10px 20px; 
+}
